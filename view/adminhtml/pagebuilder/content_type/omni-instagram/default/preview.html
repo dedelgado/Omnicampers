@@ -1,0 +1,16 @@
+<!-- preview.html -->
+<div attr="data.main.attributes"
+     ko-style="data.main.style"
+     class="pagebuilder-content-type"
+     css="data.main.css"
+     event="{ mouseover: onMouseOver, mouseout: onMouseOut }, mouseoverBubble: false">
+    <render args="getOptions().template" />
+    
+    <div class="instagram"
+       attr="data.instagram.attributes"
+       ko-style="data.instagram.style"
+       css="data.instagram.css"
+       data-bind="liveEdit: { field: 'quote_author', placeholder: $t('Enter Author') }">
+    </div>
+    
+</div>
